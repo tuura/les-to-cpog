@@ -1,0 +1,188 @@
+Event: e28
+Operation: ("q",19,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c36, c37, c94, 
+postset: c93, 
+Event: e29
+Operation: ("r",22,[Other])
+preset: c38, c39, c40, c91, 
+postset: c90, 
+Event: e24
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c4, c5, c6, c9, 
+postset: c8, c92, 
+Event: e25
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c7, c8, c9, c12, 
+postset: c11, c97, 
+Event: e26
+Operation: ("main",10,[Lock (A "__poet_mutex_threads_join" 2)])
+preset: c10, c11, c12, c15, 
+postset: c14, 
+Event: e27
+Operation: ("main",11,[Lock (A "__poet_mutex_threads_join" 3)])
+preset: c13, c14, c15, 
+postset: 
+Event: e20
+Operation: ("q",18,[Other])
+preset: c16, c17, c18, c20, 
+postset: c19, 
+Event: e21
+Operation: ("q",19,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c19, c20, 
+postset: c7, c33, 
+Event: e22
+Operation: ("p",14,[Other])
+preset: c21, c22, c24, c68, 
+postset: c23, c67, 
+Event: e23
+Operation: ("p",15,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c23, c24, 
+postset: c4, 
+Event: e46
+Operation: ("main",10,[Lock (A "__poet_mutex_threads_join" 2)])
+preset: c25, c26, c27, 
+postset: c28, 
+Event: e47
+Operation: ("main",11,[Lock (A "__poet_mutex_threads_join" 3)])
+preset: c28, c29, c30, 
+postset: 
+Event: e44
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c31, c32, c35, 
+postset: c34, 
+Event: e45
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c27, c33, c34, c35, 
+postset: c26, 
+Event: e42
+Operation: ("s",29,[Unlock (A "__poet_mutex_threads_join" 3)])
+preset: c0, c1, c30, 
+postset: c29, 
+Event: e43
+Operation: ("p",15,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c2, c3, c32, 
+postset: c31, 
+Event: e40
+Operation: ("main",11,[Lock (A "__poet_mutex_threads_join" 3)])
+preset: c41, c42, c43, 
+postset: 
+Event: e41
+Operation: ("p",14,[Other])
+preset: c3, c44, c45, c46, 
+postset: c2, 
+Event: e1
+Operation: ("main",0,[Other])
+preset: c47, c51, 
+postset: c50, 
+Event: e3
+Operation: ("main",2,[Other])
+preset: c48, c49, c55, 
+postset: c54, 
+Event: e2
+Operation: ("main",1,[Other])
+preset: c49, c50, c51, 
+postset: c48, 
+Event: e5
+Operation: ("main",4,[Unlock (A "__poet_mutex_threads" 0)])
+preset: c52, c53, c57, c59, 
+postset: c56, c58, 
+Event: e4
+Operation: ("main",3,[Other])
+preset: c53, c54, c55, 
+postset: c52, 
+Event: e7
+Operation: ("p",13,[Lock (A "__poet_mutex_threads" 0)])
+preset: c22, c56, c57, 
+postset: c21, c44, 
+Event: e6
+Operation: ("main",5,[Unlock (A "__poet_mutex_threads" 1)])
+preset: c58, c59, c61, c63, 
+postset: c60, c62, 
+Event: e9
+Operation: ("q",17,[Lock (A "__poet_mutex_threads" 1)])
+preset: c60, c61, c87, 
+postset: c16, c86, 
+Event: e8
+Operation: ("main",6,[Unlock (A "__poet_mutex_threads" 2)])
+preset: c62, c63, c70, c72, 
+postset: c69, c71, 
+Event: e13
+Operation: ("s",27,[Other])
+preset: c73, c74, c80, c83, 
+postset: c79, c82, 
+Event: e12
+Operation: ("s",26,[Lock (A "__poet_mutex_threads" 3)])
+preset: c74, c75, c76, 
+postset: c73, c100, 
+Event: e11
+Operation: ("r",21,[Lock (A "__poet_mutex_threads" 2)])
+preset: c69, c70, c78, 
+postset: c38, c77, 
+Event: e10
+Operation: ("main",7,[Unlock (A "__poet_mutex_threads" 3)])
+preset: c6, c71, c72, c76, 
+postset: c5, c75, 
+Event: e39
+Operation: ("s",29,[Unlock (A "__poet_mutex_threads_join" 3)])
+preset: c43, c64, c65, 
+postset: c42, 
+Event: e38
+Operation: ("s",28,[Other])
+preset: c65, c66, c67, c68, 
+postset: c64, 
+Event: e15
+Operation: ("r",22,[Other])
+preset: c18, c77, c78, c85, 
+postset: c17, c81, c84, 
+Event: e14
+Operation: ("s",29,[Unlock (A "__poet_mutex_threads_join" 3)])
+preset: c79, c80, 
+postset: c13, c105, 
+Event: e17
+Operation: ("r",23,[Other])
+preset: c81, c82, c83, c89, 
+postset: c88, 
+Event: e16
+Operation: ("r",23,[Other])
+preset: c84, c85, c102, c104, 
+postset: c101, c103, 
+Event: e19
+Operation: ("q",18,[Other])
+preset: c37, c40, c86, c87, 
+postset: c36, c39, 
+Event: e18
+Operation: ("r",24,[Unlock (A "__poet_mutex_threads_join" 2)])
+preset: c88, c89, 
+postset: c10, 
+Event: e31
+Operation: ("r",24,[Unlock (A "__poet_mutex_threads_join" 2)])
+preset: c90, c91, c110, 
+postset: c109, 
+Event: e30
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c92, c93, c94, 
+postset: c108, 
+Event: e37
+Operation: ("s",28,[Other])
+preset: c1, c46, c47, c95, c96, 
+postset: c0, c45, 
+Event: e36
+Operation: ("main",10,[Lock (A "__poet_mutex_threads_join" 2)])
+preset: c97, c98, c99, 
+postset: c41, 
+Event: e35
+Operation: ("s",27,[Other])
+preset: c96, c100, c101, c102, 
+postset: c66, c95, 
+Event: e34
+Operation: ("r",24,[Unlock (A "__poet_mutex_threads_join" 2)])
+preset: c99, c103, c104, 
+postset: c25, c98, 
+Event: e33
+Operation: ("main",11,[Lock (A "__poet_mutex_threads_join" 3)])
+preset: c105, c106, c107, 
+postset: 
+Event: e32
+Operation: ("main",10,[Lock (A "__poet_mutex_threads_join" 2)])
+preset: c107, c108, c109, c110, 
+postset: c106, 

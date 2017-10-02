@@ -1,0 +1,480 @@
+Event: e41
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c40, c222, c223, 
+postset: c39, 
+Event: e24
+Operation: ("thread1",16,[Lock (V "ma")])
+preset: c0, c1, c2, c4, 
+postset: c3, 
+Event: e25
+Operation: ("thread1",17,[Other])
+preset: c3, c4, c6, 
+postset: c5, 
+Event: e26
+Operation: ("thread1",18,[Other])
+preset: c5, c6, c8, 
+postset: c7, 
+Event: e27
+Operation: ("thread1",19,[Unlock (V "ma")])
+preset: c7, c8, c21, 
+postset: c20, 
+Event: e20
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c9, c10, 
+postset: c132, 
+Event: e21
+Operation: ("thread1",15,[Other])
+preset: c11, c12, c18, c19, 
+postset: c0, c13, c17, 
+Event: e22
+Operation: ("thread1",16,[Lock (V "ma")])
+preset: c13, c14, c15, c16, c127, 
+postset: c126, 
+Event: e23
+Operation: ("thread1",16,[Lock (V "ma")])
+preset: c17, c18, c19, c153, 
+postset: c152, 
+Event: e28
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c20, c21, c23, 
+postset: c22, 
+Event: e29
+Operation: ("thread1",21,[Other])
+preset: c22, c23, c125, 
+postset: c124, 
+Event: e4
+Operation: ("main",3,[Other])
+preset: c24, c25, c226, 
+postset: c225, 
+Event: e8
+Operation: ("main",7,[Unlock (A "__poet_mutex_threads" 1)])
+preset: c26, c27, c183, c251, 
+postset: c182, c250, 
+Event: e120
+Operation: ("main",11,[Other])
+preset: c30, c31, 
+postset: 
+Event: e59
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c35, c36, c147, 
+postset: c146, 
+Event: e58
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c37, c38, c136, 
+postset: c135, 
+Event: e55
+Operation: ("thread2",33,[Other])
+preset: c39, c40, c46, 
+postset: c45, 
+Event: e54
+Operation: ("main",11,[Other])
+preset: c41, c42, 
+postset: 
+Event: e57
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c36, c38, c43, c44, 
+postset: c35, c37, 
+Event: e56
+Operation: ("thread2",34,[Other])
+preset: c44, c45, c46, 
+postset: c43, 
+Event: e51
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c47, c48, c55, 
+postset: c54, 
+Event: e50
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c48, c49, c50, 
+postset: c47, 
+Event: e53
+Operation: ("main",10,[Other])
+preset: c42, c51, c52, 
+postset: c41, 
+Event: e52
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c52, c53, c54, c55, 
+postset: c51, 
+Event: e115
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c56, c57, c203, 
+postset: c202, 
+Event: e114
+Operation: ("thread1",22,[Other])
+preset: c57, c58, c59, 
+postset: c56, 
+Event: e88
+Operation: ("main",10,[Other])
+preset: c60, c61, c63, 
+postset: c62, 
+Event: e89
+Operation: ("main",11,[Other])
+preset: c62, c63, 
+postset: 
+Event: e111
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c64, c65, c69, 
+postset: c68, 
+Event: e110
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c65, c66, c67, c71, 
+postset: c64, c70, 
+Event: e113
+Operation: ("thread1",21,[Other])
+preset: c59, c68, c69, 
+postset: c58, 
+Event: e112
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c34, c70, c71, 
+postset: c33, 
+Event: e82
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c72, c73, c75, 
+postset: c74, 
+Event: e83
+Operation: ("thread2",33,[Other])
+preset: c74, c75, c86, 
+postset: c85, 
+Event: e80
+Operation: ("thread2",30,[Other])
+preset: c76, c77, c79, 
+postset: c78, 
+Event: e81
+Operation: ("thread2",31,[Unlock (V "ma")])
+preset: c73, c78, c79, 
+postset: c72, 
+Event: e119
+Operation: ("main",10,[Other])
+preset: c28, c29, c31, 
+postset: c30, 
+Event: e118
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c29, c32, c33, c34, 
+postset: c28, 
+Event: e84
+Operation: ("thread2",34,[Other])
+preset: c85, c86, c88, 
+postset: c87, 
+Event: e85
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c81, c87, c88, 
+postset: c80, 
+Event: e3
+Operation: ("main",2,[Other])
+preset: c25, c89, c90, 
+postset: c24, 
+Event: e7
+Operation: ("main",6,[Unlock (A "__poet_mutex_threads" 0)])
+preset: c27, c91, c92, c228, 
+postset: c26, c227, 
+Event: e108
+Operation: ("thread2",33,[Other])
+preset: c93, c94, c96, 
+postset: c95, 
+Event: e109
+Operation: ("thread2",34,[Other])
+preset: c67, c95, c96, 
+postset: c66, 
+Event: e102
+Operation: ("thread2",34,[Other])
+preset: c97, c98, c100, 
+postset: c99, 
+Event: e103
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c99, c100, c110, 
+postset: c109, 
+Event: e100
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c101, c102, 
+postset: c111, 
+Event: e101
+Operation: ("thread2",33,[Other])
+preset: c98, c103, c104, 
+postset: c97, 
+Event: e106
+Operation: ("main",10,[Other])
+preset: c105, c106, c108, 
+postset: c107, 
+Event: e107
+Operation: ("main",11,[Other])
+preset: c107, c108, 
+postset: 
+Event: e104
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c109, c110, c113, 
+postset: c112, 
+Event: e105
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c106, c111, c112, c113, 
+postset: c105, 
+Event: e39
+Operation: ("thread1",19,[Unlock (V "ma")])
+preset: c114, c115, c221, c223, c224, 
+postset: c220, c222, 
+Event: e38
+Operation: ("thread1",18,[Other])
+preset: c115, c116, c117, 
+postset: c114, 
+Event: e33
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c118, c119, c134, 
+postset: c133, 
+Event: e32
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c119, c120, c121, 
+postset: c118, 
+Event: e31
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c121, c122, c123, 
+postset: c120, 
+Event: e30
+Operation: ("thread1",22,[Other])
+preset: c123, c124, c125, 
+postset: c122, 
+Event: e37
+Operation: ("thread1",17,[Other])
+preset: c117, c126, c127, 
+postset: c116, 
+Event: e36
+Operation: ("main",11,[Other])
+preset: c128, c129, 
+postset: 
+Event: e35
+Operation: ("main",10,[Other])
+preset: c129, c130, c131, 
+postset: c128, 
+Event: e34
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c131, c132, c133, c134, 
+postset: c130, 
+Event: e60
+Operation: ("thread1",21,[Other])
+preset: c135, c136, c138, 
+postset: c137, 
+Event: e61
+Operation: ("thread1",22,[Other])
+preset: c137, c138, c140, 
+postset: c139, 
+Event: e62
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c139, c140, c142, 
+postset: c141, 
+Event: e63
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c141, c142, c144, 
+postset: c143, 
+Event: e64
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c143, c144, 
+postset: c145, 
+Event: e65
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c145, c146, c147, c149, 
+postset: c148, 
+Event: e66
+Operation: ("main",10,[Other])
+preset: c148, c149, c151, 
+postset: c150, 
+Event: e67
+Operation: ("main",11,[Other])
+preset: c150, c151, 
+postset: 
+Event: e68
+Operation: ("thread1",17,[Other])
+preset: c152, c153, c155, 
+postset: c154, 
+Event: e69
+Operation: ("thread1",18,[Other])
+preset: c154, c155, c246, 
+postset: c245, 
+Event: e2
+Operation: ("main",1,[Other])
+preset: c90, c156, c157, 
+postset: c89, 
+Event: e6
+Operation: ("main",5,[Other])
+preset: c92, c158, c159, 
+postset: c91, 
+Event: e99
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c104, c160, c161, 
+postset: c103, 
+Event: e98
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c102, c162, c163, 
+postset: c101, 
+Event: e91
+Operation: ("thread2",30,[Other])
+preset: c164, c165, c171, 
+postset: c170, 
+Event: e90
+Operation: ("thread2",29,[Other])
+preset: c165, c166, c167, 
+postset: c164, 
+Event: e93
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c168, c169, c173, 
+postset: c172, 
+Event: e92
+Operation: ("thread2",31,[Unlock (V "ma")])
+preset: c169, c170, c171, c175, 
+postset: c168, c174, 
+Event: e95
+Operation: ("thread1",21,[Other])
+preset: c172, c173, c179, 
+postset: c178, 
+Event: e94
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c94, c174, c175, 
+postset: c93, 
+Event: e97
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c161, c163, c176, c177, 
+postset: c160, c162, 
+Event: e96
+Operation: ("thread1",22,[Other])
+preset: c177, c178, c179, 
+postset: c176, 
+Event: e11
+Operation: ("thread2",27,[Other])
+preset: c180, c181, c187, 
+postset: c186, c229, c240, 
+Event: e10
+Operation: ("thread2",26,[Lock (A "__poet_mutex_threads" 1)])
+preset: c181, c182, c183, 
+postset: c180, 
+Event: e13
+Operation: ("thread2",29,[Other])
+preset: c184, c185, c191, 
+postset: c190, 
+Event: e12
+Operation: ("thread2",28,[Lock (V "ma")])
+preset: c185, c186, c187, 
+postset: c184, 
+Event: e15
+Operation: ("thread2",31,[Unlock (V "ma")])
+preset: c15, c16, c188, c189, c195, 
+postset: c14, c194, 
+Event: e14
+Operation: ("thread2",30,[Other])
+preset: c189, c190, c191, 
+postset: c188, 
+Event: e17
+Operation: ("thread2",33,[Other])
+preset: c192, c193, c199, 
+postset: c198, 
+Event: e16
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c193, c194, c195, 
+postset: c192, 
+Event: e19
+Operation: ("thread2",35,[Unlock (V "ma")])
+preset: c2, c10, c196, c197, 
+postset: c1, c9, 
+Event: e18
+Operation: ("thread2",34,[Other])
+preset: c197, c198, c199, 
+postset: c196, 
+Event: e117
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c200, c201, 
+postset: c32, 
+Event: e116
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c201, c202, c203, 
+postset: c200, 
+Event: e48
+Operation: ("thread2",33,[Other])
+preset: c204, c205, c207, 
+postset: c206, 
+Event: e49
+Operation: ("thread2",34,[Other])
+preset: c50, c206, c207, 
+postset: c49, 
+Event: e46
+Operation: ("thread2",32,[Lock (V "ma")])
+preset: c205, c208, c209, 
+postset: c204, 
+Event: e86
+Operation: ("thread2",36,[Unlock (A "__poet_mutex_threads_join" 1)])
+preset: c80, c81, c84, 
+postset: c83, 
+Event: e44
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c209, c212, c213, c215, 
+postset: c208, c214, 
+Event: e45
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c211, c214, c215, 
+postset: c210, 
+Event: e42
+Operation: ("thread1",21,[Other])
+preset: c216, c217, c219, 
+postset: c218, 
+Event: e43
+Operation: ("thread1",22,[Other])
+preset: c213, c218, c219, 
+postset: c212, 
+Event: e40
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c217, c220, c221, 
+postset: c216, 
+Event: e87
+Operation: ("main",9,[Lock (A "__poet_mutex_threads_join" 1)])
+preset: c61, c82, c83, c84, 
+postset: c60, 
+Event: e1
+Operation: ("main",0,[Other])
+preset: c157, c224, 
+postset: c156, 
+Event: e5
+Operation: ("main",4,[Other])
+preset: c159, c225, c226, 
+postset: c158, 
+Event: e9
+Operation: ("thread1",14,[Lock (A "__poet_mutex_threads" 0)])
+preset: c12, c227, c228, 
+postset: c11, 
+Event: e77
+Operation: ("thread2",28,[Lock (V "ma")])
+preset: c229, c230, c231, c248, 
+postset: c247, 
+Event: e76
+Operation: ("thread1",24,[Unlock (A "__poet_mutex_threads_join" 0)])
+preset: c232, c233, 
+postset: c249, 
+Event: e75
+Operation: ("thread1",23,[Unlock (V "ma")])
+preset: c231, c233, c234, c235, 
+postset: c230, c232, 
+Event: e74
+Operation: ("thread1",22,[Other])
+preset: c235, c236, c237, 
+postset: c234, 
+Event: e73
+Operation: ("thread1",21,[Other])
+preset: c237, c238, c239, 
+postset: c236, 
+Event: e72
+Operation: ("thread2",28,[Lock (V "ma")])
+preset: c167, c240, c241, c242, 
+postset: c166, 
+Event: e71
+Operation: ("thread1",20,[Lock (V "ma")])
+preset: c239, c243, c244, 
+postset: c238, 
+Event: e70
+Operation: ("thread1",19,[Unlock (V "ma")])
+preset: c242, c244, c245, c246, 
+postset: c241, c243, 
+Event: e79
+Operation: ("thread2",29,[Other])
+preset: c77, c247, c248, 
+postset: c76, 
+Event: e78
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c249, c250, c251, 
+postset: c82, 
+Event: e47
+Operation: ("main",8,[Lock (A "__poet_mutex_threads_join" 0)])
+preset: c210, c211, 
+postset: c53, 

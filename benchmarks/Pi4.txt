@@ -1,0 +1,1421 @@
+Event: e0
+Operation: other
+preset: 
+postset: c84,c24,c31,c100,c92,c57,c83,c60,c79,c0,c72,c46,c67,c1,c63,c85,c6,c36,c41,c82,c17,
+Event: e16
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c30,c36,
+postset: c37,c38,
+Event: e55
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c63,c73,
+postset: c141,
+Event: e29
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c65,c67,
+postset: c68,c69,
+Event: e8
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c16,c17,
+postset: c18,c19,
+Event: e10
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c18,c19,
+postset: c22,c23,
+Event: e32
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c25,c23,
+postset: c75,c76,
+Event: e1
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c0,c1,
+postset: c2,c3,
+Event: e61
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c141,c84,
+postset: c147,c148,
+Event: e11
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c22,c24,
+postset: c25,c26,
+Event: e20
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c39,c46,
+postset: c47,c48,
+Event: e33
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c68,c66,
+postset: c77,c78,
+Event: e18
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c34,c41,
+postset: c42,c43,
+Event: e62
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c148,c83,c79,c85,c147,c82,
+postset: c149,c150,c151,c152,c153,c154,
+Event: e63
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c152,
+postset: c155,c156,
+Event: e80
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c156,
+postset: c198,
+Event: e64
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c156,
+postset: c157,
+Event: e166
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c198,c151,
+postset: c412,c413,
+Event: e182
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c452,c451,c150,c151,c153,c154,
+postset: c453,c454,c455,c456,c457,c458,
+Event: e187
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c453,c454,c464,c465,c455,c456,
+postset: c466,c467,c468,c469,c470,c471,
+Event: e188
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c469,
+postset: c472,c473,
+Event: e189
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c472,c59,
+postset: c474,c475,
+Event: e98
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c143,c82,
+postset: c240,c241,
+Event: e25
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c49,c57,
+postset: c58,c59,
+Event: e101
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c249,
+postset: c250,
+Event: e313
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c805,
+postset: c806,
+Event: e318
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c817,c59,
+postset: c819,c820,
+Event: e223
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c562,
+postset: c565,
+Event: e162
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c405,c59,
+postset: c407,c408,
+Event: e275
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c702,c59,
+postset: c704,c705,
+Event: e164
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c367,
+postset: c410,
+Event: e238
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c601,
+postset: c604,
+Event: e107
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c261,c59,
+postset: c264,c265,
+Event: e38
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c95,c59,
+postset: c97,c98,
+Event: e165
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c380,
+postset: c411,
+Event: e239
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c604,c598,
+postset: c605,c606,
+Event: e240
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c605,c595,c596,c597,c606,c599,
+postset: c607,c608,c609,c610,c611,c612,
+Event: e241
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c610,
+postset: c613,c614,
+Event: e277
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c410,c362,
+postset: c707,c708,
+Event: e278
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c707,c360,c708,c363,c364,c365,
+postset: c709,c710,c711,c712,c713,c714,
+Event: e282
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c719,c709,
+postset: c720,c721,
+Event: e346
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c745,c711,
+postset: c896,c897,
+Event: e347
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c709,c897,c896,c712,c713,c714,
+postset: c898,c899,c900,c901,c902,c903,
+Event: e279
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c710,
+postset: c715,c716,
+Event: e348
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c899,
+postset: c904,c905,
+Event: e291
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c716,
+postset: c745,
+Event: e283
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c720,c721,c711,c712,c713,c714,
+postset: c722,c723,c724,c725,c726,c727,
+Event: e351
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c898,c907,c901,c908,c902,c903,
+postset: c909,c910,c911,c912,c913,c914,
+Event: e287
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c732,c727,
+postset: c733,c734,
+Event: e288
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c722,c723,c724,c725,c733,c734,
+postset: c735,c736,c737,c738,c739,c740,
+Event: e185
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c460,
+postset: c463,
+Event: e295
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c754,c59,
+postset: c756,c757,
+Event: e224
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c565,c559,
+postset: c566,c567,
+Event: e243
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c588,
+postset: c617,
+Event: e328
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c617,c586,
+postset: c846,c847,
+Event: e329
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c581,c583,c847,c584,c846,c585,
+postset: c848,c849,c850,c851,c852,c853,
+Event: e334
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c848,c860,c851,c852,c853,c859,
+postset: c861,c862,c863,c864,c865,c866,
+Event: e335
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c861,
+postset: c867,c868,
+Event: e336
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c867,c74,
+postset: c869,c870,
+Event: e330
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c850,
+postset: c854,c855,
+Event: e179
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c446,c59,
+postset: c448,c449,
+Event: e292
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c411,c374,
+postset: c746,c747,
+Event: e350
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c906,c900,
+postset: c907,c908,
+Event: e280
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c715,c59,
+postset: c717,c718,
+Event: e40
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c75,c100,
+postset: c101,c102,
+Event: e247
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c626,c102,
+postset: c628,c629,
+Event: e118
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c249,
+postset: c292,
+Event: e204
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c511,c102,
+postset: c513,c514,
+Event: e58
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c112,c101,
+postset: c144,
+Event: e120
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c144,c106,
+postset: c294,c295,
+Event: e92
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c223,
+postset: c226,
+Event: e53
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c135,c102,
+postset: c137,c138,
+Event: e200
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c499,
+postset: c502,
+Event: e184
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c459,c102,
+postset: c461,c462,
+Event: e116
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c287,c102,
+postset: c289,c290,
+Event: e175
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c433,c102,
+postset: c436,c437,
+Event: e327
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c842,c102,
+postset: c844,c845,
+Event: e121
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c105,c295,c294,c108,c109,c110,
+postset: c296,c297,c298,c299,c300,c301,
+Event: e122
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c299,
+postset: c302,c303,
+Event: e126
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c307,c297,c308,c298,c300,c301,
+postset: c309,c310,c311,c312,c313,c314,
+Event: e125
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c306,c296,
+postset: c307,c308,
+Event: e127
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c309,
+postset: c315,c316,
+Event: e93
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c226,c217,
+postset: c227,c228,
+Event: e94
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c228,c216,c218,c219,c227,c221,
+postset: c229,c230,c231,c232,c233,c234,
+Event: e95
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c230,
+postset: c235,c236,
+Event: e119
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c262,
+postset: c293,
+Event: e78
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c181,c102,
+postset: c194,c195,
+Event: e222
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c561,c102,
+postset: c563,c564,
+Event: e67
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c161,c149,c151,c160,c153,c154,
+postset: c162,c163,c164,c165,c166,c167,
+Event: e72
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c163,c165,c166,c173,c167,c174,
+postset: c175,c176,c177,c178,c179,c180,
+Event: e76
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c175,c176,c184,c177,c178,c185,
+postset: c186,c187,c188,c189,c190,c191,
+Event: e73
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c180,
+postset: c181,c182,
+Event: e77
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c188,
+postset: c192,c193,
+Event: e79
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c192,c94,
+postset: c196,c197,
+Event: e75
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c183,c179,
+postset: c184,c185,
+Event: e71
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c172,c164,
+postset: c173,c174,
+Event: e36
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c77,c92,
+postset: c93,c94,
+Event: e44
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c112,
+postset: c113,
+Event: e45
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c113,c108,
+postset: c114,c115,
+Event: e300
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c767,c94,
+postset: c769,c770,
+Event: e82
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c169,
+postset: c200,
+Event: e157
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c392,c94,
+postset: c394,c395,
+Event: e163
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c367,
+postset: c409,
+Event: e261
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c664,c94,
+postset: c666,c667,
+Event: e286
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c729,
+postset: c732,
+Event: e56
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c96,c93,
+postset: c142,
+Event: e83
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c142,c90,
+postset: c201,c202,
+Event: e290
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c741,c94,
+postset: c743,c744,
+Event: e46
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c114,c105,c115,c106,c109,c110,
+postset: c116,c117,c118,c119,c120,c121,
+Event: e48
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c120,
+postset: c124,c125,
+Event: e51
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c116,c117,c128,c119,c127,c121,
+postset: c129,c130,c131,c132,c133,c134,
+Event: e86
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c209,c94,
+postset: c211,c212,
+Event: e54
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c124,c94,
+postset: c139,c140,
+Event: e262
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c409,c365,
+postset: c668,c669,
+Event: e257
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c652,
+postset: c655,
+Event: e258
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c655,c650,
+postset: c656,c657,
+Event: e259
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c646,c656,c657,c647,c648,c649,
+postset: c658,c659,c660,c661,c662,c663,
+Event: e263
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c360,c668,c362,c363,c364,c669,
+postset: c670,c671,c672,c673,c674,c675,
+Event: e337
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c706,c672,
+postset: c871,c872,
+Event: e267
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c670,c680,c672,c673,c679,c675,
+postset: c681,c682,c683,c684,c685,c686,
+Event: e264
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c671,
+postset: c676,c677,
+Event: e265
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c677,
+postset: c678,
+Event: e269
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c683,
+postset: c689,c690,
+Event: e270
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c689,c74,
+postset: c691,c692,
+Event: e199
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c498,c94,
+postset: c500,c501,
+Event: e57
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c63,c93,
+postset: c143,
+Event: e315
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c806,c803,
+postset: c809,c810,
+Event: e209
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c523,c102,
+postset: c526,c527,
+Event: e22
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c42,c35,
+postset: c51,c52,
+Event: e2
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c2,c3,
+postset: c4,c5,
+Event: e145
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c84,c79,c85,c358,c82,c359,
+postset: c360,c361,c362,c363,c364,c365,
+Event: e149
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c370,c364,
+postset: c371,c372,
+Event: e150
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c360,c372,c371,c362,c363,c365,
+postset: c373,c374,c375,c376,c377,c378,
+Event: e154
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c383,c377,
+postset: c384,c385,
+Event: e155
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c373,c374,c375,c384,c376,c385,
+postset: c386,c387,c388,c389,c390,c391,
+Event: e156
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c388,
+postset: c392,c393,
+Event: e159
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c396,c386,
+postset: c397,c398,
+Event: e160
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c387,c397,c389,c390,c391,c398,
+postset: c399,c400,c401,c402,c403,c404,
+Event: e161
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c404,
+postset: c405,c406,
+Event: e69
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c168,c59,
+postset: c170,c171,
+Event: e196
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c200,c165,
+postset: c490,c491,
+Event: e102
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c248,c94,
+postset: c251,c252,
+Event: e158
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c393,
+postset: c396,
+Event: e338
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c670,c872,c673,c674,c871,c675,
+postset: c873,c874,c875,c876,c877,c878,
+Event: e342
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c883,c875,
+postset: c884,c885,
+Event: e343
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c885,c873,c874,c884,c877,c878,
+postset: c886,c887,c888,c889,c890,c891,
+Event: e339
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c876,
+postset: c879,c880,
+Event: e49
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c125,
+postset: c126,
+Event: e349
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c905,
+postset: c906,
+Event: e268
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c676,c94,
+postset: c687,c688,
+Event: e273
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c681,c694,c684,c685,c695,c686,
+postset: c696,c697,c698,c699,c700,c701,
+Event: e274
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c698,
+postset: c702,c703,
+Event: e170
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c420,c94,
+postset: c423,c424,
+Event: e225
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c566,c555,c556,c567,c557,c558,
+postset: c568,c569,c570,c571,c572,c573,
+Event: e272
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c693,c682,
+postset: c694,c695,
+Event: e323
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c830,
+postset: c833,
+Event: e324
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c833,c827,
+postset: c834,c835,
+Event: e325
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c823,c824,c825,c828,c834,c835,
+postset: c836,c837,c838,c839,c840,c841,
+Event: e326
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c838,
+postset: c842,c843,
+Event: e190
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c473,
+postset: c476,
+Event: e137
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c338,c94,
+postset: c342,c343,
+Event: e153
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c380,
+postset: c383,
+Event: e229
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c292,c244,
+postset: c579,c580,
+Event: e230
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c579,c242,c580,c245,c246,c247,
+postset: c581,c582,c583,c584,c585,c586,
+Event: e234
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c591,c581,
+postset: c592,c593,
+Event: e231
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c582,
+postset: c587,c588,
+Event: e233
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c588,
+postset: c591,
+Event: e201
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c502,c497,
+postset: c503,c504,
+Event: e202
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c492,c493,c495,c504,c496,c503,
+postset: c505,c506,c507,c508,c509,c510,
+Event: e128
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c315,c94,
+postset: c317,c318,
+Event: e197
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c163,c164,c490,c491,c166,c167,
+postset: c492,c493,c494,c495,c496,c497,
+Event: e227
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c574,c59,
+postset: c576,c577,
+Event: e174
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c434,
+postset: c435,
+Event: e176
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c435,c430,
+postset: c438,c439,
+Event: e186
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c463,c457,
+postset: c464,c465,
+Event: e203
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c509,
+postset: c511,c512,
+Event: e218
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c549,
+postset: c552,
+Event: e219
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c552,c542,
+postset: c553,c554,
+Event: e220
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c553,c543,c545,c546,c547,c554,
+postset: c555,c556,c557,c558,c559,c560,
+Event: e221
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c560,
+postset: c561,c562,
+Event: e132
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c328,
+postset: c329,
+Event: e133
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c329,c325,
+postset: c330,c331,
+Event: e134
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c321,c331,c322,c330,c323,c326,
+postset: c332,c333,c334,c335,c336,c337,
+Event: e140
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c333,c335,c336,c346,c337,c345,
+postset: c347,c348,c349,c350,c351,c352,
+Event: e135
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c332,
+postset: c338,c339,
+Event: e138
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c339,
+postset: c344,
+Event: e260
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c659,
+postset: c664,c665,
+Event: e293
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c373,c375,c747,c376,c377,c746,
+postset: c748,c749,c750,c751,c752,c753,
+Event: e298
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c750,c751,c759,c760,c752,c753,
+postset: c761,c762,c763,c764,c765,c766,
+Event: e299
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c763,
+postset: c767,c768,
+Event: e344
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c890,
+postset: c892,c893,
+Event: e345
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c892,c74,
+postset: c894,c895,
+Event: e147
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c366,c102,
+postset: c368,c369,
+Event: e66
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c157,c150,
+postset: c160,c161,
+Event: e316
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c798,c799,c800,c809,c802,c810,
+postset: c811,c812,c813,c814,c815,c816,
+Event: e296
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c755,
+postset: c758,
+Event: e34
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c64,c79,
+postset: c80,c81,
+Event: e311
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c796,c453,c454,c455,c457,c797,
+postset: c798,c799,c800,c801,c802,c803,
+Event: e333
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c858,c849,
+postset: c859,c860,
+Event: e70
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c169,
+postset: c172,
+Event: e271
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c690,
+postset: c693,
+Event: e304
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c780,
+postset: c781,
+Event: e306
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c781,c774,
+postset: c784,c785,
+Event: e307
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c773,c785,c775,c776,c777,c784,
+postset: c786,c787,c788,c789,c790,c791,
+Event: e308
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c790,
+postset: c792,c793,
+Event: e181
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c199,c149,
+postset: c451,c452,
+Event: e198
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c494,
+postset: c498,c499,
+Event: e124
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c303,
+postset: c306,
+Event: e31
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c51,c72,
+postset: c73,c74,
+Event: e248
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c627,
+postset: c630,
+Event: e113
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c274,c74,
+postset: c279,c280,
+Event: e354
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c917,c74,
+postset: c919,c920,
+Event: e142
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c353,c74,
+postset: c355,c356,
+Event: e91
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c222,c74,
+postset: c224,c225,
+Event: e106
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c262,
+postset: c263,
+Event: e213
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c536,c74,
+postset: c538,c539,
+Event: e252
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c639,c74,
+postset: c641,c642,
+Event: e256
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c651,c74,
+postset: c653,c654,
+Event: e217
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c548,c74,
+postset: c550,c551,
+Event: e47
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c111,c74,
+postset: c122,c123,
+Event: e143
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c328,
+postset: c357,
+Event: e253
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c357,c322,
+postset: c643,c644,
+Event: e254
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c644,c321,c323,c643,c325,c326,
+postset: c645,c646,c647,c648,c649,c650,
+Event: e255
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c645,
+postset: c651,c652,
+Event: e237
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c600,c74,
+postset: c602,c603,
+Event: e87
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c210,
+postset: c213,
+Event: e88
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c213,c204,
+postset: c214,c215,
+Event: e89
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c203,c214,c205,c207,c208,c215,
+postset: c216,c217,c218,c219,c220,c221,
+Event: e285
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c728,c74,
+postset: c730,c731,
+Event: e39
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c96,
+postset: c99,
+Event: e41
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c99,c91,
+postset: c103,c104,
+Event: e42
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c86,c103,c88,c104,c89,c90,
+postset: c105,c106,c107,c108,c109,c110,
+Event: e249
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c630,c623,
+postset: c631,c632,
+Event: e250
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c620,c621,c632,c631,c624,c625,
+postset: c633,c634,c635,c636,c637,c638,
+Event: e251
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c636,
+postset: c639,c640,
+Event: e108
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c263,c259,
+postset: c266,c267,
+Event: e109
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c267,c256,c257,c258,c266,c260,
+postset: c268,c269,c270,c271,c272,c273,
+Event: e110
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c272,
+postset: c274,c275,
+Event: e112
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c276,c270,
+postset: c277,c278,
+Event: e152
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c379,c74,
+postset: c381,c382,
+Event: e117
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c249,
+postset: c291,
+Event: e214
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c291,c242,
+postset: c540,c541,
+Event: e215
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c541,c244,c245,c246,c540,c247,
+postset: c542,c543,c544,c545,c546,c547,
+Event: e320
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c542,c543,c545,c821,c547,c822,
+postset: c823,c824,c825,c826,c827,c828,
+Event: e321
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c826,
+postset: c829,c830,
+Event: e216
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c544,
+postset: c548,c549,
+Event: e319
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c578,c546,
+postset: c821,c822,
+Event: e208
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c524,
+postset: c525,
+Event: e210
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c525,c521,
+postset: c528,c529,
+Event: e211
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c528,c518,c519,c520,c529,c522,
+postset: c530,c531,c532,c533,c534,c535,
+Event: e212
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c534,
+postset: c536,c537,
+Event: e148
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c367,
+postset: c370,
+Event: e5
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c9,c5,
+postset: c11,c12,
+Event: e9
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c15,c12,
+postset: c20,c21,
+Event: e6
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c11,c8,
+postset: c13,c14,
+Event: e7
+Operation: other
+preset: c13,
+postset: c15,c16,
+Event: e191
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c476,c466,
+postset: c477,c478,
+Event: e244
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c293,c257,
+postset: c618,c619,
+Event: e245
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c256,c258,c618,c259,c260,c619,
+postset: c620,c621,c622,c623,c624,c625,
+Event: e246
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c622,
+postset: c626,c627,
+Event: e19
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c29,c21,
+postset: c44,c45,
+Event: e30
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_numThreads)
+preset: c55,c45,
+postset: c70,c71,
+Event: e23
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c44,c28,
+postset: c53,c54,
+Event: e24
+Operation: other
+preset: c53,
+postset: c55,c56,
+Event: e169
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c421,
+postset: c422,
+Event: e171
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c422,c419,
+postset: c425,c426,
+Event: e172
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c426,c414,c415,c416,c418,c425,
+postset: c427,c428,c429,c430,c431,c432,
+Event: e173
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c431,
+postset: c433,c434,
+Event: e59
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c96,c101,
+postset: c145,
+Event: e129
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c145,c89,
+postset: c319,c320,
+Event: e130
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c86,c88,c320,c90,c319,c91,
+postset: c321,c322,c323,c324,c325,c326,
+Event: e131
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c324,
+postset: c327,c328,
+Event: e183
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c458,
+postset: c459,c460,
+Event: e146
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c361,
+postset: c366,c367,
+Event: e21
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c47,c40,
+postset: c49,c50,
+Event: e111
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c275,
+postset: c276,
+Event: e305
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c779,c59,
+postset: c782,c783,
+Event: e60
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c63,c101,
+postset: c146,
+Event: e65
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c155,c74,
+postset: c158,c159,
+Event: e341
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c880,
+postset: c883,
+Event: e284
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c726,
+postset: c728,c729,
+Event: e353
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c914,
+postset: c917,c918,
+Event: e281
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c716,
+postset: c719,
+Event: e340
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c879,c59,
+postset: c881,c882,
+Event: e232
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c587,c102,
+postset: c589,c590,
+Event: e310
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c489,c456,
+postset: c796,c797,
+Event: e81
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c156,
+postset: c199,
+Event: e235
+Operation: ThreadIdentifier(main_1) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c583,c592,c584,c593,c585,c586,
+postset: c594,c595,c596,c597,c598,c599,
+Event: e236
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c594,
+postset: c600,c601,
+Event: e27
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c63,
+postset: c64,
+Event: e331
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c854,c59,
+postset: c856,c857,
+Event: e139
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c344,c334,
+postset: c345,c346,
+Event: e192
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c477,c478,c467,c468,c470,c471,
+postset: c479,c480,c481,c482,c483,c484,
+Event: e193
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c484,
+postset: c485,c486,
+Event: e123
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c302,c102,
+postset: c304,c305,
+Event: e99
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c84,c241,c240,c83,c79,c85,
+postset: c242,c243,c244,c245,c246,c247,
+Event: e100
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c243,
+postset: c248,c249,
+Event: e104
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c242,c254,c253,c244,c246,c247,
+postset: c255,c256,c257,c258,c259,c260,
+Event: e105
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c255,
+postset: c261,c262,
+Event: e314
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c804,c94,
+postset: c807,c808,
+Event: e43
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c107,
+postset: c111,c112,
+Event: e35
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c84,c83,c81,c80,c85,c82,
+postset: c86,c87,c88,c89,c90,c91,
+Event: e151
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c378,
+postset: c379,c380,
+Event: e17
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c37,c38,
+postset: c39,c40,
+Event: e332
+Operation: ThreadIdentifier(main_1) aquires LockIdentifier(foo)
+preset: c73,c855,
+postset: c858,
+Event: e289
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c736,
+postset: c741,c742,
+Event: e194
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c485,c94,
+postset: c487,c488,
+Event: e226
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c569,
+postset: c574,c575,
+Event: e167
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c413,c149,c150,c412,c153,c154,
+postset: c414,c415,c416,c417,c418,c419,
+Event: e168
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c417,
+postset: c420,c421,
+Event: e302
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c771,c772,c415,c416,c418,c419,
+postset: c773,c774,c775,c776,c777,c778,
+Event: e303
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c778,
+postset: c779,c780,
+Event: e301
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c450,c414,
+postset: c771,c772,
+Event: e195
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c460,
+postset: c489,
+Event: e177
+Operation: ThreadIdentifier(main_3) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c439,c427,c428,c438,c429,c432,
+postset: c440,c441,c442,c443,c444,c445,
+Event: e178
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c444,
+postset: c446,c447,
+Event: e37
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c87,
+postset: c95,c96,
+Event: e242
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c613,c59,
+postset: c615,c616,
+Event: e50
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c126,c118,
+postset: c127,c128,
+Event: e3
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c4,c6,
+postset: c7,c8,
+Event: e4
+Operation: other
+preset: c7,
+postset: c9,c10,
+Event: e103
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c250,c245,
+postset: c253,c254,
+Event: e309
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c792,c102,
+postset: c794,c795,
+Event: e317
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c815,
+postset: c817,c818,
+Event: e90
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c220,
+postset: c222,c223,
+Event: e352
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c904,c94,
+postset: c915,c916,
+Event: e52
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c131,
+postset: c135,c136,
+Event: e322
+Operation: ThreadIdentifier(main_3) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c829,c59,
+postset: c831,c832,
+Event: e96
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c235,c102,
+postset: c237,c238,
+Event: e97
+Operation: ThreadIdentifier(main_2) aquires LockIdentifier(foo)
+preset: c101,c210,
+postset: c239,
+Event: e205
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c239,c208,
+postset: c515,c516,
+Event: e206
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c203,c515,c204,c205,c207,c516,
+postset: c517,c518,c519,c520,c521,c522,
+Event: e207
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c517,
+postset: c523,c524,
+Event: e297
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c758,c748,
+postset: c759,c760,
+Event: e114
+Operation: ThreadIdentifier(main_2) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c268,c269,c271,c278,c273,c277,
+postset: c281,c282,c283,c284,c285,c286,
+Event: e115
+Operation: ThreadIdentifier(main_2) releases LockIdentifier(foo)
+preset: c285,
+postset: c287,c288,
+Event: e266
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c678,c674,
+postset: c679,c680,
+Event: e14
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c10,c31,
+postset: c32,c33,
+Event: e15
+Operation: ThreadIdentifier(main_1) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c32,c33,
+postset: c34,c35,
+Event: e180
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c421,
+postset: c450,
+Event: e294
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c749,
+postset: c754,c755,
+Event: e136
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c327,c102,
+postset: c340,c341,
+Event: e12
+Operation: ThreadIdentifier(main) reads SharedVariableIdentifier(PiJavaThread_fobba)
+preset: c20,c14,
+postset: c27,c28,
+Event: e13
+Operation: other
+preset: c27,
+postset: c29,c30,
+Event: e74
+Operation: ThreadIdentifier(main_4) aquires LockIdentifier(foo)
+preset: c93,c182,
+postset: c183,
+Event: e68
+Operation: ThreadIdentifier(main_3) releases LockIdentifier(foo)
+preset: c162,
+postset: c168,c169,
+Event: e144
+Operation: ThreadIdentifier(main_2) reads SharedVariableIdentifier(PiJavaThread_pi)
+preset: c146,c83,
+postset: c358,c359,
+Event: e312
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c801,
+postset: c804,c805,
+Event: e276
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c677,
+postset: c706,
+Event: e141
+Operation: ThreadIdentifier(main_1) releases LockIdentifier(foo)
+preset: c347,
+postset: c353,c354,
+Event: e228
+Operation: ThreadIdentifier(main_3) aquires LockIdentifier(foo)
+preset: c58,c549,
+postset: c578,
+Event: e26
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c56,c60,
+postset: c61,c62,
+Event: e28
+Operation: ThreadIdentifier(main_4) reads SharedVariableIdentifier(PiJavaThread_n)
+preset: c61,c62,
+postset: c65,c66,
+Event: e84
+Operation: ThreadIdentifier(main_4) writes SharedVariableIdentifier(PiJavaThread_pi)
+preset: c86,c201,c88,c89,c202,c91,
+postset: c203,c204,c205,c206,c207,c208,
+Event: e85
+Operation: ThreadIdentifier(main_4) releases LockIdentifier(foo)
+preset: c206,
+postset: c209,c210,
+
