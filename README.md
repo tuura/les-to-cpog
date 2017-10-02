@@ -1,6 +1,7 @@
 # les-to-cpog
 
-Computing the size of the CPOG and LES corresponding to a given unfolding
+Given an unfolding, this tool computes the size of the corresponding Labelled Event Structure (LES)
+and the corresponding Conditional Partial Order Graph (CPOG).
 
 ## Build
 
